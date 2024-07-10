@@ -18,21 +18,29 @@ export const data = {
       heading: "Amazing Deals",
       content:
         "Far far away, behind the word mountains, far from the countries Vokalia.",
+      bgColor: "#f5ebeb",
+      accent: "#cb9696",
     },
     {
       heading: "Quality Furniture",
       content:
         "Far far away, behind the word mountains, far from the countries Vokalia.",
+      bgColor: "#dcebdd",
+      accent: "#8bbd8e",
     },
     {
       heading: "Modern Design",
       content:
         "Far far away, behind the word mountains, far from the countries Vokalia.",
+      bgColor: "#f5efd8",
+      accent: "#d1b54a",
     },
     {
       heading: "Best Support",
       content:
         "Far far away, behind the word mountains, far from the countries Vokalia.",
+      bgColor: "#f4e6d8",
+      accent: "#d29a61",
     },
   ],
   footer: [
