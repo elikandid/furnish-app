@@ -6,20 +6,17 @@ import Services from "./components/services";
 import Statististics from "./components/statististics";
 import Testimonials from "./components/testimonials";
 
-
 const LandingPage = () => {
   return (
     <div>
-      
       <Hero />
       <Services />
       <About />
       <Collection />
       <Statististics />
-      <Testimonials/>
-
+      <Testimonials />
     </div>
-  )
-}
+  );
+};
 
 export default LandingPage;
