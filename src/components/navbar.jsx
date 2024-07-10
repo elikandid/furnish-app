@@ -1,22 +1,28 @@
-import { Link } from "react-router-dom"
-import K from "../constants";
-
-
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-20 fixed w-full left-0 top-0">
-      <span className="font-extrabold text-3xl ">Furnish</span>
-      <div className="flex gap-x-10">
-        
-      {K.NAVLINKS.map(
-            (item,index)=> {
-              return<Link key={index} to={item.path}>{item.name}</Link>
-            }
-          )
-        }
+    <nav className=" w-full  absolute top-6 left-0">
+      <div className="grid grid-cols-2 px-[64px]">
+        <a href="/">Logo</a>
+        <ul className="flex space-x-[40px] active:[&_a]:text-white justify-center">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Collection</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
-  )
-}
+    </nav>
+  );
+};
 
 export default Navbar;
