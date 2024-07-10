@@ -1,13 +1,15 @@
-import { Outlet } from "react-router-dom"
-import Footer from "../components/footer"
-import Navbar from "../components/navbar"
+import { Outlet } from "react-router-dom";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 
 const RootLayout = () => {
-  return <>
-  <Navbar/>
-  <Outlet/>
-  <Footer/>
-  </>
-}
+  return (
+    <div className="flex flex-col">
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </div>
+  );
+};
 
-export default RootLayout
+export default RootLayout;
